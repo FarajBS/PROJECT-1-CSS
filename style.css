@@ -4,6 +4,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Body */
+body {
+    font-family: "Segoe UI",Arial,sans-serif;
+}
 /*= All =*/
 
 /* Elements */
@@ -105,9 +110,11 @@ header nav {
 
 .upperNav .leftPart .searchIcon {
     position: absolute;
-    top: 14px;
-    right: 745px;
+    top: 8px;
+    right: 735px;
     cursor: pointer;
+    border-radius: 50px;
+    padding: 7px;
 }
 
 .upperNav .leftPart .searchIcon img {
@@ -117,9 +124,9 @@ header nav {
 /* Backgroud Of Website */
 .upperNav .leftPart .contianer-background {
     position: absolute;
-    top: 10px;
+    top: 8px;
     right: 675px;
-    padding: 10px;
+    padding: 9px;
     border-radius: 50%;
 }
 
@@ -156,7 +163,7 @@ header nav {
     list-style: none;
     height: 100%;
     position: relative;
-    bottom: 45px;
+    bottom: 50px;
     left: 930px;
 }
 
@@ -185,15 +192,15 @@ header nav {
     border-radius: 90px;
     font-size: 1.2em;
     position: relative;
-    bottom: 85px;
+    bottom: 90px;
     left: 1320px;
     overflow: hidden;
 }
 
 .upperNav .rightPart .rigLog button {
     color: #fff; 
-    padding: 20px 30px;
-    margin: -8px;
+    padding: 22px 30px;
+    margin: -9px;
     font-size: 0.8em;
     font-weight: lighter;
     border: none;
@@ -247,11 +254,11 @@ header nav {
 
 .lowerNav ul li {
     display: inline-block;
-    line-height: 2.9;
+    line-height: 2.5;
     height: 100%;
     cursor: pointer;
     padding: 0 10px;
-    margin-top: 0px;
+    margin: 0px 0px 0px 3px;
 }
 
 .lowerNav ul li, .lowerNav ul li a {
@@ -264,3 +271,132 @@ header nav {
 /*// Lower Nav Section //*/
 /*/// Nav Section ///*/
 /*= Header Sectio =*/
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Main Section */
+/*--- Sidebar ---*/
+main .sidebar {
+    margin-top: 15vh;
+    max-width: 20%;
+    height: 85vh;
+    background-color: rgb(228, 228, 228);
+    overflow: auto;
+    padding-bottom: 40px;
+    display: inline-block;
+    position: fixed;
+}
+
+/* Title Of Sidebar */
+main .sidebar h2 {
+    padding: 30px 15px 15px;
+    font-weight: 400;
+}
+
+/* List Of Sidebar */
+main .sidebar ul li {
+    list-style: none;
+}
+
+main .sidebar ul li {
+    padding: 5px 50px;
+}
+
+main .sidebar ul li:hover {
+    background-color: silver;
+}
+
+main .sidebar ul li a {
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+main .sidebar ul .active, main .sidebar ul .li .active {
+    color: #fff !important;
+    background-color: #02a066;
+}
+/*/// Sidebar ///*/
+/* =========================================================================================================================================== */
+/*--- Tutorial ---*/
+main .tutorial {
+    max-width: 70vw; 
+    height: 100vh;
+    position: relative;
+    left: 299px;
+    top: 101px;
+}
+
+/* Title Of This Tutorial */
+main .tutorial h1 {
+    font-weight: 400;
+    font-size: 3em;
+    margin-left: 35px;
+    padding-top: 110px;
+}
+
+/* Buttons */
+main .tutorial button {
+    margin-top: 20px;
+    background-color: #04AA6D;
+    border: 1px solid #02a066;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+main .tutorial button a {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+main .tutorial .home {
+    margin-left: 35px;
+}
+
+
+main .tutorial .next {
+    margin-left: 750px;
+}
+
+main .tutorial .home::before {
+    content: "<";
+    color: #fff;
+    font-size: 2em;
+    margin-right: 5px;
+}
+
+main .tutorial .next::after {
+    content: ">";
+    color: #fff;
+    font-size: 2em;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+/* Study Section */
+main .tutorial .study {
+    margin-top: 25px;
+    padding: 32px;
+    background-color: #D9EEE1;
+}
+
+main .tutorial .study p {
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+/* Easy Lerning */
+main .tutorial .easyLerning {
+    margin: 50px 30px;
+}
+
+.main .tutorial .easyLerning h2 {
+    font-size: 2.4em;
+    font-weight: 400;
+}
+
+.main .tutorial .easyLerning p {
+    margin-top: 20px;
+}
+/*/// Tutorial ///*/
+/*= Main Section =*/
