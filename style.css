@@ -6,3 +6,261 @@
 }
 /*= All =*/
 
+/* Elements */
+a {
+    text-decoration: none;
+}
+
+/* Header Sectio */
+/*--- Nav Section ---*/
+header nav {
+    height: 15vh;
+    background-color: #fff;
+    position: fixed;
+}
+
+/*-- Upper Nav Section --*/
+.upperNav {
+    height: 60%;
+    background-color: #fff;
+    position: relative;
+}
+
+/*- Left Part -*/
+.upperNav .leftPart {
+    overflow: hidden;
+    height: 100%;
+    width: fit-content;
+}
+
+/* Logo */
+.upperNav .leftPart .logo {
+    height: 62px;
+}
+
+/* Main Menu */
+.upperNav .leftPart .mainMenu {
+    display: inline-block;
+    list-style: none;
+    height: 100%;
+    position: relative;
+    bottom: 45px;
+    right: 5px;
+    margin-left: 5px;
+}
+
+.upperNav .leftPart .mainMenu li {
+    display: inline-block;
+    height: 100%;
+    margin-left: -3.7px;
+    padding: 0 20px;
+}
+
+.upperNav .leftPart .mainMenu li::after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #333 transparent transparent transparent;
+}
+
+.upperNav .leftPart .mainMenu li:hover, 
+.upperNav .leftPart .mainMenu li a span:hover {
+    background-color: #04AA6D;
+    color: #fff;
+}
+
+.upperNav .leftPart .mainMenu li a {
+    color: #000;
+    font-weight: lighter;
+}
+.upperNav .leftPart .mainMenu li a span {
+    vertical-align: -20px;
+    font-size: 1.3rem;
+    margin-right: 3px;
+}
+
+/* Search */
+.upperNav .leftPart .search {
+    margin-left: 10px;
+    position: relative;
+    top: -28px;
+    padding: 13px 25px;
+    border-radius: 30px;
+    border: 1px solid #c4c3c3;
+}
+
+.upperNav .leftPart .search:focus {
+    outline: solid #04AA6D;
+}
+
+.upperNav .leftPart .search::-ms-input-placeholder {
+    font-size: 1.3em;
+}
+  
+::placeholder {
+    font-size: 1.3em;
+}
+
+.upperNav .leftPart .searchIcon {
+    position: absolute;
+    top: 14px;
+    right: 745px;
+    cursor: pointer;
+}
+
+.upperNav .leftPart .searchIcon img {
+    width: 30px;
+}
+
+/* Backgroud Of Website */
+.upperNav .leftPart .contianer-background {
+    position: absolute;
+    top: 10px;
+    right: 675px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.upperNav .leftPart .contianer-background:hover {
+    background-color: rgba(201, 201, 201, 0.5);
+}
+
+.upperNav .leftPart .contianer-background .background {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border: 3px solid #000;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.upperNav .leftPart .contianer-background .background span {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    background-color: #fff;
+}
+/*/ Left Part /*/
+
+
+/* Right Part */
+.upperNav .rightPart {
+    display: inline-block;
+    width: fit-content;
+}
+
+.upperNav .rightPart .submenu {
+    display: inline-block;
+    list-style: none;
+    height: 100%;
+    position: relative;
+    bottom: 45px;
+    left: 930px;
+}
+
+.upperNav .rightPart .submenu li {
+    display: inline-block;
+    height: 100%;
+    margin-left: -3.7px;
+    padding: 5px 20px;
+}
+
+.upperNav .rightPart .submenu li a {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: #000;
+}
+
+.upperNav .rightPart .submenu li:hover {
+    background-color: rgba(201, 201, 201, 0.5);
+    border-radius: 60px;
+}
+
+/*  */
+.upperNav .rightPart .rigLog {
+    background-color: #d6f8d7;
+    width: fit-content;
+    border-radius: 90px;
+    font-size: 1.2em;
+    position: relative;
+    bottom: 85px;
+    left: 1320px;
+    overflow: hidden;
+}
+
+.upperNav .rightPart .rigLog button {
+    color: #fff; 
+    padding: 20px 30px;
+    margin: -8px;
+    font-size: 0.8em;
+    font-weight: lighter;
+    border: none;
+}
+
+.upperNav .rightPart .rigLog button a {
+    color: #000;
+}
+
+.upperNav .rightPart .rigLog .sign {
+    background-color: #04AA6D;
+    position: relative;
+    border-radius: 50%;
+    z-index: 10;
+    margin-right: -20px;
+}
+
+.upperNav .rightPart .rigLog .sign a {
+    color: #fff;
+}
+
+.upperNav .rightPart .rigLog .log {
+    background-color: #d6f8d7;
+    color: #000;
+}
+
+.upperNav .rightPart .rigLog .log:hover,
+.upperNav .rightPart .rigLog .sign:hover,
+.upperNav .rightPart .rigLog button a:hover {
+    background-color: #02a066;
+    color: #fff;
+}
+/* .upperNav .righrPart . */
+/*/ Right Part /*/
+/*// Upper Nav Section //*/
+
+
+/*-- Lower Nav Section --*/
+.lowerNav {
+    height: 40%;
+    background-color: #444;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.lowerNav ul {
+    list-style: none;
+    height: 100%;
+}
+
+.lowerNav ul li {
+    display: inline-block;
+    line-height: 2.9;
+    height: 100%;
+    cursor: pointer;
+    padding: 0 10px;
+    margin-top: 0px;
+}
+
+.lowerNav ul li, .lowerNav ul li a {
+    color: #fff;
+}
+
+.lowerNav ul li:hover {
+    background-color: #333;
+}
+/*// Lower Nav Section //*/
+/*/// Nav Section ///*/
+/*= Header Sectio =*/
