@@ -1,0 +1,284 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden
+}
+.navpage1{
+    border: 5px solid rgb(255, 255, 255)  ;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%px;
+    word-spacing: 40px;
+    font-size: 20px; 
+    text-align:start;
+}
+.anav:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 170, 109);
+    border: 20px solid rgb(4, 170, 109);
+    
+    
+}
+.anav{
+    color: black;
+
+    
+}
+.background_page{
+    width: 100%;
+    height: 100%;
+}
+.icon-anav{
+    position: relative;
+    right: 70px;
+}
+.label-anav{
+
+    height: 30px; ;
+    border: 1px solid #ccc;
+    border-radius: 15px; 
+
+
+}
+.nava2{
+   
+    border: 2px solid #282a35 ;
+    padding-top:20px;
+    background-color: #282a35;
+    word-spacing: 40px;
+    
+
+}
+.nava2 a{
+    color: #ccc;
+}
+
+
+.nava2:hover{
+    color: yellow; 
+}
+.intro {
+    position: relative;
+    text-align: center; 
+}
+
+
+.background {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.parg {
+    color: white; 
+    font-size: 100px; 
+    margin: 0;
+    position: relative;
+    top: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 20px;
+}
+
+h3 {
+    color: white; 
+    font-size: 1.5em; 
+    margin: 0;
+    position: relative;
+    top: 250px;
+}
+.form-container {
+
+    position: relative;
+    top:300px;
+    margin: 0 auto;
+    
+}
+.background2{
+    position: absolute;
+    right: 10vh;
+    top: 35vh;
+}
+.search-container {
+    display: flex;
+    position: relative;
+    top: 250px;
+    align-items: center;
+    width: 400px; 
+    margin: 20px auto; 
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #04AA6D; 
+    border: none;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.search-icon {
+    fill: white; 
+}
+.que {
+    position: relative;
+    left: 550px;
+    top: 290px;
+    color: #ccc;
+    font-size: 25px;
+}
+
+
+
+.que:hover {
+    color: yellow; 
+}
+.section1{
+    position: relative;
+    top: 405px;
+}
+
+.section2{
+    border: 2px solid #d9eee2;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top:400px;
+
+    background-color: #d9eee2;
+
+}
+.section-container{
+    position: relative;
+    left: 330px;
+    top: 25px;
+
+}
+.h1-section2{
+    font-size: 90px;
+}
+
+.h3-section2{
+    position: absolute;
+    top: 125px;
+    left:-40px ;
+    color: #282a35;
+}
+.b1{
+    font-size: 20px;
+    color: #ffffff;
+background-color: #04AA6D;
+border: 2px solid #04AA6D; 
+border-radius: 20px;
+width:11%;
+height:35px;
+}
+.b2{
+    
+    font-size: 20px;
+    color: #000000;
+background-color: #fff5a3;
+border: 2px solid #fff5a3; 
+border-radius: 20px;
+width:11%;
+height:35px;
+
+}
+.b3{
+
+     
+font-size: 20px;
+color: #ffffff;
+background-color: #282a36;
+border: 2px solid #282a36; 
+border-radius: 20px;
+width:11%;
+height:35px;
+
+}
+.b4{
+    
+    font-size: 20px;
+color: #000000;
+background-color: #f4bfc6;
+border: 2px solid #f4bfc6; 
+border-radius: 20px;
+width:11%;
+height:35px;
+}
+
+
+.section-container1{
+    position: relative;
+    left: 330px;
+    top: 25px;
+    
+
+}
+.section3{
+    position: relative;
+    top: 400px;
+    border: 5px solid #fff5a3;
+    background-color: #fff5a3;
+    width: 100%;
+    height: 500px;
+
+}
+
+
+.b5{
+    font-size: 20px;
+    color: #ffffff;
+background-color: #04AA6D;
+border: 2px solid #04AA6D; 
+border-radius: 20px;
+width:11%;
+height:35px;
+}
+.b6{
+    
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #282a36;
+    border: 2px solid #282a36; 
+    border-radius: 20px;
+    width:11%;
+    height:35px;
+    
+}
+.b7{
+    font-size: 20px;
+    color: #000000;
+    background-color: #f4bfc6;
+    border: 2px solid #f4bfc6; 
+    border-radius: 20px;
+    width:11%;
+    height:35px;
+
+}
+.h1-section3
+{
+        font-size: 90px;
+}
+.h3-section3{
+    position: absolute;
+    top: 125px;
+    left:-40px ;
+    color: #282a35;
+
+}
