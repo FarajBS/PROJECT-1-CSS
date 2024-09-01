@@ -5,58 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROJECT-1-CSS</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-2.css">
 
 </head>
 <body>
     <div class="tt" >
-    <header>
-        <nav class="navpage1">
-            
-            <img src="https://www.w3schools.com/favicon.ico" alt="3schoole">
-            
-            <a class="anav" href="#">Tutorials</a>
-            <a class="anav" href="#">Exercises</a>
-            <a class="anav" href="#">Servicrs</a>
-            <label for="search"></label>
-            <input type="search" id="search" class="label-anav" placeholder=" Saarch...">
-            <svg class="icon-anav" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
-             <a  href="#">  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-              </svg></a>
-                <i class="fas fa-moon"></i> 
-            </a>
-            
-            
-        </nav>
-        <br>
-    </header>
-    <nav class="nava2">
-    <a class="anav2" href="#">HTML</a>
-    <a class="anav2" href="#">CSS</a>
-    <a class="anav2" href="#">JAVASCRIPT</a>
-    <a class="anav2" href="#">SQL</a>
-    <a class="anav2" href="#">PYTHON</a>
-    <a class="anav2" href="#">JAVAL</a>
-    <a class="anav2" href="#">PHP</a>
-    <a class="anav2" href="#">HOWTO</a>
-    <a class="anav2" href="#">W3.CSS</a>
-    <a class="anav2" href="#">C</a>
-    <a class="anav2" href="#">C++</a>
-    <a class="anav2" href="#">C#</a>
-    <a class="anav2" href="#">BOOTSTRAP</a>
-    <a class="anav2" href="#">REACT</a>
-    <a class="anav2" href="#">MYSQL</a>
-
-
-
-
-
-
-
-
-
-
-
-    </nav>
+            <!-- Begin:  Header Section -->
+            <header>
+                <nav>               
+                    <!-- Begin: Upper Nav Section -->
+                    <section class="upperNav">
+                        <div class="leftPart">
+                            <!-- Logo -->
+                            <a href="https://www.w3schools.com/"><img class="logo" src="images/w3schools-logo.png" alt="Logo For Website" /></a>
+     
+                            <!-- Main Menu -->
+                            <ul class="mainMenu">
+                                <li><a href="#"><span>Tutorials</span></a></li>
+                                <li><a href="#"><span>Exercises</span></a></li>
+                                <li><a href="#"><span>Certificates</span></a></li>
+                                <li><a href="#"><span>Services</span></a></li>
+                            </ul>
+    
+                            <!-- Search -->
+                            <input class="search" type="text" placeholder="Search..">
+                            <button class="searchIcon" type="submit"><img src="images/search-icon.png" alt="Search Icon" /></button>
+                        
+                            <!-- Backgroud Of Website -->
+                            <div class="contianer-background">
+                                <div class="background">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ==================================================================================================================== -->
+                        <div class="rightPart">
+                            <ul class="submenu">
+                                <li><a href="https://www.w3schools.com/plus/index.php"> <span></span> Plus</a></li>
+                                <li><a href="https://www.w3schools.com/spaces/index.php"> <span></span> Spaces</a></li>
+                                <li><a href="https://campus.w3schools.com/collections/course-catalog"> <span></span> Get Certified</a></li>
+                            </ul>
+    
+                            <!-- Sign Up & Login -->
+                            <div class="rigLog">
+                                <button class="sign"><a href="https://profile.w3schools.com/signup?redirect_url=https%3A%2F%2Fwww.w3schools.com%2Fspaces%2Findex.php">Sign Up</a></button>
+                                <button class="log"><a href="https://profile.w3schools.com/login?redirect_url=https%3A%2F%2Fwww.w3schools.com%2Fspaces%2Findex.php">Log in</a></button>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End: Upper Nav Section -->
+                    <!-- ======================================================================================================================== -->
+                    <!-- Begin: Lower Nav Section -->
+                    <section class="lowerNav">
+                        <ul>
+                            <li><a href="html-page.html">HTML</a></li>
+                            <li><a href="css-page.html">CSS</a></li>
+                            <li><a href="https://www.w3schools.com/js/default.asp">JAVASCRIPT</a></li>
+                            <li><a href="https://www.w3schools.com/sql/default.asp">SQL</a></li>
+                            <li><a href="https://www.w3schools.com/python/default.asp">PYTHON</a></li>
+                            <li><a href="https://www.w3schools.com/php/default.asp">PHP</a></li>
+                            <li><a href="https://www.w3schools.com/howto/default.asp">HOW TO</a></li>
+                            <li><a href="https://www.w3schools.com/w3css/default.asp">W3.CSS</a></li>
+                            <li><a href="https://www.w3schools.com/c/index.php">C</a></li>
+                            <li><a href="https://www.w3schools.com/cpp/default.asp">C++</a></li>
+                            <li><a href="https://www.w3schools.com/cs/index.php">c#</a></li>
+                            <li><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">BOOTSTRAP</a></li>
+                            <li><a href="https://www.w3schools.com/react/default.asp">REACT</a></li>
+                            <li><a href="https://www.w3schools.com/mysql/default.asp">MYSQL</a></li>
+                            <li><a href="https://www.w3schools.com/jquery/default.asp">JQUERY</a></li>
+                            <li><a href="https://www.w3schools.com/excel/index.php">EXCEL</a></li>
+                            <li><a href="https://www.w3schools.com/xml/default.asp">XML</a></li>
+                            <li><a href="https://www.w3schools.com/django/index.php">DJANGO</a></li>
+                            <li><a href="https://www.w3schools.com/python/numpy/default.asp">NUMPY</a></li>
+                            <li><a href="https://www.w3schools.com/python/pandas/default.asp">PANDAS</a></li>
+                            <li>></li>
+                        </ul>
+                    </section>
+                    <!-- End: Lower Nav Section -->
+                </nav>
+            </header>
+            <!-- End:  Header Section -->
     <div class="intro">
         <h1 class="parg">Learn to Code</h1>
         <h3>With the world's largest web developer site.</h3>
@@ -83,7 +111,7 @@
             
             <h1 class="h1-section2">HTML</h1>
             <h3 class="h3-section2">The language for building web pages</h3>
-            <button class="b1">Learn HTML</button>
+            <button class="b1"><a href="html-page.html">Lean HTML</a></button>
             <br>
             <br>
             <button class="b2" > video Tutorial</button>
